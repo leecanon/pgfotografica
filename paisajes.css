@@ -1,0 +1,115 @@
+body{
+    width: 80%;
+    background-color: #000000;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 600;
+    height: 100%;
+    border-left: #000000 150px solid;
+    border-right: #000000 20px solid;
+    transform: translate(0,-550px);
+    
+}  
+.contenido{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    transition:all 0s;
+    transform: translate(0,550px);
+}
+.cabezera{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    background: #5b7989;
+}
+div .nombre{
+    color: white;
+    text-shadow: 6px 6px 6px #02010a;
+    margin: auto;
+    font-size: 212%;
+    text-align: center;
+    
+}
+div .menu{
+    font-size: 136%;
+    margin: auto;
+}
+a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    
+    margin-left: -8%;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+
+.imagenes{
+    background-color: #E1BB68;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.imagen{
+    margin: 1%;
+}
+.imagen img{
+    margin: auto;
+    flex: 20%;
+    text-align: center;
+	width:430px;
+}
+.footer{
+    background-color: #C6d5c5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 0 0 10px 10px ;
+    font-weight: 400;
+    font-size: 100%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+.footer a{
+    color:black;
+}
+.con{
+    margin-left: 0.5%;
+	width:200px;
+	font-size:20px;
+}
+.footer img{
+    width: 10%;
+    float: left;
+}
+.con p{
+    margin-bottom: -6%;
+}
+#img01{
+    filter: blur(10px)
+}
+#img01 :hover{
+    transform: rotate(-10deg)   
+}
+#img02{
+    filter: grayscale(100%)
+}
+#img03{
+    filter: sepia(90%)
+}
+#img04{
+    filter: grayscale(100%)
+}
+#img05{
+    
+}
+#img06{
+    filter: grayscale(100%)
+}

@@ -1,0 +1,137 @@
+body{
+    width: 80%;
+    background-color: #000000;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 600;
+    height: 100%;
+    border-left: #000000 150px solid;
+    border-right: #000000 20px solid;
+    transform: translate(0,-550px);
+    transition: all 0s; 
+    
+}
+.contenido{
+    width: 100%; // tamaño 1jpg
+    height: 180%;
+    margin: auto;
+    transition:all 0s;
+    transform: translate(0,550px);
+}
+
+.cabezera{
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background: #5b7989;
+}
+
+
+div .nombre{
+    color: white;
+    text-shadow: 12px 12px 12px #12010c;
+    margin: auto;
+    font-size: 252%;
+    text-align: center;
+    
+}
+div .menu{
+    font-size: 136%;
+    margin: auto;
+}
+
+
+a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    
+    margin-left: -10%;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+}
+
+.imagen{
+    background-color: #E1BB68;    
+    width: 100%;
+}
+.central{
+    background-color:  #82c3a6;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.central img{
+    margin: auto;
+    width: 50%;
+    border: none;
+}
+img{
+    transition: all 0s;
+    margin: auto;
+    display:block;
+    width: 95%;
+    border: 3px solid #615fd5;
+}
+.secundarias img{
+    box-shadow: 7px 7px #02010a;
+    transition:all 1s;
+    padding-bottom: 0%;
+}
+
+.secundarias{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;    
+}
+
+.sec{
+    margin: auto;
+    text-align: center;
+	width:300px;
+}
+.sec a{
+    color: #02010a;
+    
+}
+#img1:hover{
+    transform: rotate( 10deg);
+    text-shadow: 2px 2px 2px #12010c;
+}
+#img2:hover{
+    transition:all 1s;
+    transform: translate(16%);
+    box-shadow: 2px 2px 2px #82c3a6;
+}
+.footer{
+    background-color: #C6d5c5;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 0 0 10px 10px ;
+    font-weight: 400;
+    font-size: 100%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+.con{
+    margin-left: 0.5%;
+	width:200px;
+	font-size:20px;
+}
+.footer img{
+    width: 10%;
+    float: left;
+}
+.con p{
+    margin-bottom: -6%;
+}
+.footer a{
+    color:black;
+}
